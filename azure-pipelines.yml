@@ -25,6 +25,6 @@ stages:
       inputs:
         command: build
         dockerfile: '$(Build.SourcesDirectory)/Web.Docker/Dockerfile'
-        buildContext: DockerTestWebsiteLinux
+        buildContext: Web.Docker
         tags: |
           $(tag)
