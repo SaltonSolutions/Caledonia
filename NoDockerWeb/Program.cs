@@ -3,6 +3,8 @@ using Microsoft.Extensions.Hosting;
 
 namespace NoDockerWeb
 {
+    // 1.01
+
     public class Program
     {
         public static void Main(string[] args)
